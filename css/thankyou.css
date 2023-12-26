@@ -1,0 +1,36 @@
+.thankyou-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+
+.thankyou-button {
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  color: #265738;
+  border: 3px solid #4aa96c;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.thankyou-button:hover {
+  color: #f8f8f8;
+  background-color: #4aa96c;
+}
+
+.thankyou-img {
+  width: 25rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 896px) {
+  .thankyou-img {
+    width: 80%;
+  }
+}

@@ -1,0 +1,48 @@
+.head-title {
+  color: #2d2626;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.order-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.order-data > img {
+  width: 13rem;
+  height: 9rem;
+}
+
+/* PAYMENT-SECTION */
+.payment-section {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.form-select {
+  width: 11rem;
+}
+
+.payment-title {
+  color: #2d2626;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Media Queries */
+@media screen and (max-width: 896px) {
+  .order-data {
+    flex-direction: column;
+  }
+}

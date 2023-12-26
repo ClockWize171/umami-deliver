@@ -1,0 +1,39 @@
+/* Reset all default CSS styles */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* START CONTAINER */
+body.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: #f8f8f8;
+}
+
+/* FOR FIXED NAVBAR */
+.main{
+  margin-top: 10vh;
+  min-height: calc(100vh - 431.2px);
+}
+
+button{
+  cursor: pointer;
+}
+/* END CONTAINER */

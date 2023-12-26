@@ -1,0 +1,94 @@
+.user-profile-container {
+  display: flex;
+}
+
+/* FIRST COLUMN */
+.first-column {
+  width: 25rem;
+  height: 90vh;
+  background-color: #3e8b5a;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 4rem;
+  padding-right: 2rem;
+  margin-top: 20px;
+  gap: 2rem;
+}
+
+a > h3.profile-menu {
+  color: #f8f8f8;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.profile-menu:hover {
+  opacity: 0.5;
+}
+
+.border {
+  padding: 0.3rem 1rem;
+}
+
+/* SECOND COLUMN */
+.second-column {
+  margin-top: 20px;
+  padding: 2rem;
+  height: 90vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+h3 {
+  color: #265738;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.user-form {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.breadcrumb-item > a {
+  color: #265738;
+}
+
+.user-breadcrumb {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+.account-detail-button {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+}
+
+/* Media Queries */
+@media screen and (max-width: 896px) {
+  .first-column {
+    display: none;
+  }
+  .user-profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-column {
+   width: 100%;
+  }
+}
+
+@media screen and (min-width: 896px) {
+  .user-breadcrumb {
+    display: none;
+  }
+}
